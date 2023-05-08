@@ -7,6 +7,7 @@ import sessionErrorReducer from "./sessionErrorReducer";
 const rootReducer = combineReducers({
   session: sessionReducer,
   sessionError: sessionErrorReducer,
+  
   pin: pinReducer,
 });
 
